@@ -5,7 +5,7 @@ The setup look like the following:
 ```bash
 +-------------+                +-------------+               +-------------+
 |             |    +------+    |             |    +-----+    |             |
-| Postgres DB +----+web_nw+----+ Postgres DB +----+db_nw+----+ Postgres DB |
+|    Nginx    +----+web_nw+----+  Flask App  +----+db_nw+----+ Postgres DB |
 |             |    +------+    |             |    +-----+    |             |
 +-------------+                +-------------+               +-------------+
 ```
