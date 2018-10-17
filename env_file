@@ -1,0 +1,4 @@
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=paloalto
+POSTGRES_DB=flaskapp_db
+APP_SECRET_KEY=paloalto_secret_key
