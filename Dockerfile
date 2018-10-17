@@ -14,5 +14,5 @@ RUN apk add --no-cache postgresql-dev gcc python3 python3-dev musl-dev && \
 
 ADD ./app /home/app
 
-EXPOSE 5000
+EXPOSE 5090
 CMD ["python3", "app.py"]
