@@ -28,3 +28,7 @@ To remove everything use the following command:
 ```bash
 $ docker-compose down
 ```
+
+## Example output
+
+![Example output](https://raw.githubusercontent.com/mohanadelamin/docker-3-tier-app/master/exmple_output.png)
